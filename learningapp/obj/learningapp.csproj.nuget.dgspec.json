@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/a-kurosaki/dotnet_ws/az_vm_webapp_sample_2/learningapp/learningapp.csproj": {}
+  },
+  "projects": {
+    "/home/a-kurosaki/dotnet_ws/az_vm_webapp_sample_2/learningapp/learningapp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/a-kurosaki/dotnet_ws/az_vm_webapp_sample_2/learningapp/learningapp.csproj",
+        "projectName": "learningapp",
+        "projectPath": "/home/a-kurosaki/dotnet_ws/az_vm_webapp_sample_2/learningapp/learningapp.csproj",
+        "packagesPath": "/home/a-kurosaki/.nuget/packages/",
+        "outputPath": "/home/a-kurosaki/dotnet_ws/az_vm_webapp_sample_2/learningapp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/a-kurosaki/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.6, 8.0.6]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.6, 8.0.6]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.6, 8.0.6]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
